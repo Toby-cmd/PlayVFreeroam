@@ -6,13 +6,76 @@ language = 'en'
 modules = [ 'js-module']
 name = 'PlayV.mp Freeroam Server'
 players = 1024
-port = 7788
+port = 7790
 tags = [ 'customTag1', 'customTag2', 'customTag3', 'customTag4' ]
 
 resources = [
 'bug',
 'assets',
-'playv'
+'playv',
+'cops-medics',
+'altior',
+'argento',
+'asterope',
+'audace',
+'auroras',
+'basesultan2',
+'bati901',
+'bf900',
+'bfbenito',
+'buffalo4h',
+'buffalo5fk',
+'buffaloh',
+'cycloneex0',
+'cypherct',
+'deviant2',
+'domc',
+'dominatorc2',
+'dubsta22',
+'elegyrh7',
+'esperanto2d',
+'estancia',
+'gauntletc',
+'gauntlets',
+'gauntletstx',
+'glendaleks',
+'glendalelimo',
+'gresleyh',
+'howitzer',
+'jdoraclev12',
+'jestgpr',
+'kawaii',
+'mark1',
+'mesar',
+'neross',
+'niner',
+'nscout',
+'nspeedo',
+'oiltanker',
+'oracxsle',
+'paradrop',
+'patriots',
+'peacemaker',
+'razor',
+'remusp',
+'rtroblade',
+'sabrec',
+'schlagenstr',
+'schwartzerc',
+'scout',
+'severo',
+'streiter2',
+'sultan2c',
+'superd3',
+'supergts',
+'swindler',
+'tempestaa',
+'tempestaes',
+'tempestarc',
+'velox',
+'vetok',
+'vigeronew',
+'zrgpr',
 ]
 
 # Max size of client to server script events in bytes
@@ -21,7 +84,7 @@ maxClientScriptEventSize = 32000
 maxServerScriptEventSize = 1024000
 
 # Turn this off in production mode
-debug = true
+debug = false
 #announce = true
 #token = ''
 spawnAfterConnect = true
@@ -45,8 +108,8 @@ bitrate = 128000
 host = '127.0.0.1'
 port = 5432
 username = 'postgres' #Use your own credentials!
-password = 'postgres' #Use your own credentials!
-database = 'playv' #Use your own credentials!
+password = '1111' #Use your own credentials!
+database = 'freeroam' #Use your own credentials!
 refreshScheme = true #USE FALSE IN PRODUCTION!!!!
 
 [discordlogin]

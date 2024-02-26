@@ -23,3 +23,4 @@ data/*
 AltV.Net.Host.runtimeconfig.json
 libnode.so.108
 altv-crash-handler
+server.toml
